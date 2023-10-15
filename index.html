@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Simple Website</title>
+    <style>
+    	p {
+            color: #230E01;
+        }
+       
+        nav {
+            background-color: #F66104;
+            color: white;
+            border: 2px solid black;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 50;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 40px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
-<body>
-    <h1>i am alive</h1>
+<body style="background-color: #F5E2D6;">
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="contact.html">ART</a></li>
+            <li><a href="#hl">MUSIC</a></li>
+            <li><a href="#h">PROJECTS</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <header>
+        <h1>Welcome! I'm Matthew</h1>
+    </header>
+    <picture>
+  <source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+  <source media="(min-width:465px)" srcset="img_white_flower.jpg">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <main>
+        <section>
+            <h2>About me</h2>
+            <p>This is a simple website created with HTML.</p>
+        </section>
+        <section>
+            <h2>Contact me</h2>
+            <p>You can reach us at matthewwilliams0727@gmail.com.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Simple Website</p>
+    </footer>
 </body>
 </html>
