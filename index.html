@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <title>My Simple Website</title>
     <style>
+        .resume{
+            float:left;
+            display: block;
+        }
+        .float{
+            padding: 0px 20px;
+            float:left;
+            width:45%;
+        }
     	p {
             color: #230E01;
         }
@@ -28,6 +37,9 @@
             text-decoration: none;
             color: white;
         }
+        footer{
+            clear:both;
+        }
     </style>
 </head>
 <body style="background-color: #F5E2D6;">
@@ -45,14 +57,17 @@
     <header>
         <h1>Welcome to my site! I'm Matthew Williams.</h1>
     </header>
-     <img src="tub posterized.jpg" alt="tub" height="300">
+     
 
     <main>
-        <section>
-            <h2>About me</h2>
-            <p> This is my personal portfolio site. I am currently an interactive design student at Kennesaw state. <br>I am very profficient in adobe illustrator and photoshop. I am very excited to work with you!</p>
+        <section class="resume">
+            <img src="resume png.png" alt="tub" height="500">
         </section>
-        <section>
+        <section class="float">
+            <h2>About me</h2>
+            <p> This is my personal portfolio site. I am currently an interactive design student at Kennesaw state.
+                 <br>I am very profficient in adobe illustrator and photoshop. I am very excited to work with you!</p>
+
             <h2>Contact me</h2>
             <p>You can reach me at matthewwilliams0727@gmail.com.</p>
         </section>
